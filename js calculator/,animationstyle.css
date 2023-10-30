@@ -1,0 +1,94 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+/*Navbar styling*/
+.nav{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:30px 10%;
+}
+.logo{
+flex-grow: 2;
+}
+.item{
+
+}
+.item ul li{
+display:inline-block;
+margin:10px;
+
+}
+/*Navbar styling end*/
+/*section 1 styling*/
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 10%;
+}
+.div1{
+    text-align: center;
+    flex-grow: 1;
+    position: relative;
+    animation: anim1;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+    transition-property: background-color all;
+    transition-timing-function: ease-in;
+    transition-duration: 4s;
+}
+
+/* section 2 styling*/
+.cardcontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+#card{
+    width: 200px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    box-shadow: rgba(0,0,0,25)12px 40px 22px 10px;
+    margin: 20px;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    background-color: royalblue;
+    color: seashell;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    
+
+}
+@keyframes anim1 {
+    0%{
+        top: 200px;
+        background-color: aqua;
+    }
+    25%{
+        left: 300px;
+        background-color: lawngreen;
+    }
+    50%{
+        top: 0px;
+        background-color: blueviolet;
+    }
+    75%{
+        left: 0px;
+        background-color: crimson;
+    }
+    100%{
+        background-color: bisque;
+    }
+}
+    
