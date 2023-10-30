@@ -4,7 +4,7 @@
     /* box-sizing: border-box; */
 }
 
-.maincontainer{
+.container{
     display: flex;
     align-items: center;
     justify-content: center;
